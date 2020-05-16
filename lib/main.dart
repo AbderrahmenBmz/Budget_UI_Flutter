@@ -8,7 +8,9 @@ void main() {
 class BudgetAmber extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Budget Amber',
       theme: ThemeData(
         primarySwatch: Colors.amber,
